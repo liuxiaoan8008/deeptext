@@ -21,7 +21,7 @@ Run command below to drop into an interactive session. For each sentence, model 
 python run.py -m try -o your/model_dir`
 ```
 
-<h2 id="install">install Deeptext</h2>
+<h2 id="install">Install Deeptext</h2>
 
 _Setting up Deeptext is easy!_
 
@@ -33,7 +33,7 @@ Run the following commands to clone the repository and install Deeptext:
 git clone https://github.com/liuxiaoan8008/deeptext.git
 cd deeptext; pip install -r requirements.txt
 ```
-<h2 id="format">data format</h2>
+<h2 id="format">Data Format</h2>
 
 train, valid or test data file format:
 
@@ -51,7 +51,7 @@ O O O O O O O O O O
 O O O O O O O O
 ```
 
-## training options
+## Training Options
 Optional arguments:
 ```
   -s    STEP,      train step, default is 500
