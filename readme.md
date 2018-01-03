@@ -19,7 +19,8 @@ Run command below to drop into an interactive session. For each sentence, model 
 python deeptext/run.py -m try -o your/model_dir`
 ```
 
-<span id = "install">## install Deeptext</span>
+<h2 id="install">install Deeptext</h2>
+
 _Setting up Deeptext is easy!_
 
 Deeptext requires Linux/OSX and Python 2.7. Its other dependencies are listed in requirements.txt. CUDA is strongly recommended for speed, but not necessary.
