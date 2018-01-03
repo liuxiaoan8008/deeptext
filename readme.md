@@ -27,7 +27,7 @@ Deeptext requires Linux/OSX and Python 2.7. Its other dependencies are listed in
 Run the following commands to clone the repository and install Deeptext:
 
 ```bash
-git clone https://
+git clone https://github.com/liuxiaoan8008/deeptext.git
 cd deeptext; pip install -r requirements.txt; python setup.py develop
 ```
 
