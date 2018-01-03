@@ -6,17 +6,17 @@
 
 Run command below to train a model:
 ```bash
-python deeptext/run.py -m train -o your/model_dir -d you/train_data_file -v your/valid_data_file`
+python run.py -m train -o your/model_dir -d you/train_data_file -v your/valid_data_file`
 ```
 
 Run command below to test your model:
 ```bash
-python deeptext/run.py -m test -o your/model_dir -d you/test_data_file`
+python run.py -m test -o your/model_dir -d you/test_data_file`
 ```
 
 Run command below to drop into an interactive session. For each sentence, model will return the sequence labeling result string.
 ```bash
-python deeptext/run.py -m try -o your/model_dir`
+python run.py -m try -o your/model_dir`
 ```
 
 <h2 id="install">install Deeptext</h2>
