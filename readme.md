@@ -29,15 +29,15 @@ Run the following commands to clone the repository and install Deeptext:
 
 ```bash
 git clone https://github.com/liuxiaoan8008/deeptext.git
-cd deeptext; pip install -r requirements.txt; python setup.py develop
+cd deeptext; pip install -r requirements.txt
 ```
 
 ## training options
 Optional arguments:
 ```
-  -s    STEP,        train step, default is 500
-  -b    BATCH,    train data's batch size, default is 256
-  -l     LEN,          max document len, default is 25
+  -s    STEP,      train step, default is 500
+  -b    BATCH,     train data's batch size, default is 256
+  -l     LEN,      max document len, default is 25
   -e    EMBED,     word2vec embedding size, default is 100
-  -p    PROB,       dropout prob, default is 0.5
+  -p    PROB,      dropout prob, default is 0.5
 ```
